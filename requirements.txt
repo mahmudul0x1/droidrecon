@@ -1,0 +1,14 @@
+# DroidRecon Requirements
+# Author: mahmudul0x1
+# https://github.com/mahmudul0x1/droidrecon
+
+# Required
+rich>=13.0.0              # Terminal UI, tables, progress bars, panels
+httpx[asyncio]>=0.24.0    # Async HTTP client (--probe, --validate)
+
+# Optional (strongly recommended)
+androguard>=3.4.0         # Binary AndroidManifest.xml parsing + cert details
+
+# Dev/Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
